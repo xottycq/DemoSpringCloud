@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$USER_HOME$/gradle-6.8.3" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/demoEurekaServer" />
+        <option name="gradleHome" value="$USER_HOME$/gradle-6.8.3" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/demoEurekaServer" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/demoGateway" />
+        <option name="gradleHome" value="$USER_HOME$/gradle-6.8.3" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/demoGateway" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/demoMicroService1" />
+        <option name="gradleHome" value="$USER_HOME$/gradle-6.8.3" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/demoMicroService1" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/demoMicroService2" />
+        <option name="gradleHome" value="$USER_HOME$/gradle-6.8.3" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/demoMicroService2" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/demoWebClient" />
+        <option name="gradleHome" value="$USER_HOME$/gradle-6.8.3" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/demoWebClient" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

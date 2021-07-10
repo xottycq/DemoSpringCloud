@@ -1,0 +1,38 @@
+#服务暴露顿口号
+server:
+  port: 9090
+#服务名称
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lowerCaseServiceId: true
+      routes:
+      - id: route-1
+        uri:  https://www.csdn.net
+        predicates:
+          - Path=/abc
+        filters:
+          - StripPrefix=1
+
+      - id: route-2
+        uri: lb://userlogin
+        predicates:
+          - Path=/login
+
+      - id: route-3
+        uri: http://localhost:9091
+        predicates:
+           - Path=/ulogin
+        filters:
+           - SetPath=/login
+
+#注册中心地址
+eureka:
+  client:
+     serviceUrl:
+        defaultZone: http://localhost:8761/eureka/
